@@ -4,6 +4,7 @@
   "description": "A server for logs using websocket",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config ./webpack.conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,15 @@
   "bugs": {
     "url": "https://github.com/Clarence-pan/node-websocket-log-server/issues"
   },
-  "homepage": "https://github.com/Clarence-pan/node-websocket-log-server#readme"
+  "homepage": "https://github.com/Clarence-pan/node-websocket-log-server#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "webpack": "^2.3.2",
+    "webpack-cli": "^1.0.0"
+  }
 }
