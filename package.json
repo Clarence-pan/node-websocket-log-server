@@ -1,0 +1,29 @@
+{
+  "name": "websocket-log-server",
+  "version": "0.0.1",
+  "description": "A server for logs using websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url":  "git+https://github.com/Clarence-pan/node-websocket-log-server.git"
+  },
+  "files": [
+    "index.js",
+    "client.js"
+  ],
+  "bin": {
+    "websocket-log-server": "index.js"
+  },
+  "author": "clarencep",
+  "license": "MIT",
+  "dependencies": {
+    "websocket": "^1.0.24"
+  },
+  "bugs": {
+    "url": "https://github.com/Clarence-pan/node-websocket-log-server/issues"
+  },
+  "homepage": "https://github.com/Clarence-pan/node-websocket-log-server#readme"
+}
