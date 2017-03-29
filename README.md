@@ -55,7 +55,5 @@ const console = require('websocket-log-server/client').init('192.168.1.1', '8888
 console.log("hello world!") // => if the websocket-log-server is running, this message will be on the console of server.
 ```
 
-
-
-
+A full example is here: [node-websocket-log-server-demo](https://github.com/clarence-pan/node-websocket-log-server-demo)
 
