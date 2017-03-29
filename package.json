@@ -1,6 +1,6 @@
 {
   "name": "websocket-log-server",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A server for logs using websocket",
   "main": "index.js",
   "scripts": {
