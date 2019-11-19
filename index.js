@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+if (/^(undefined|-h|--help|-\?)$/.test(process.argv[2])) {
+  console.log('Usage: websocket-log-server [listen-host] [listen-port]');
+  process.exit(1);
+}
+
+
 let WebSocketServer = require('websocket').server;
 let http = require('http');
 
